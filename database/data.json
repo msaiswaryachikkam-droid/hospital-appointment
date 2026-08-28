@@ -2,21 +2,21 @@
   "patients": [
     {
       "id": "p1",
-      "name": "Aarav Sharma",
+      "name": "Aishwarya Chikkam",
       "email": "patient1@demo.com",
       "password": "patient123",
       "scope": "patient"
     },
     {
       "id": "p2",
-      "name": "Diya Patel",
+      "name": "Sameeksha",
       "email": "patient2@demo.com",
       "password": "patient123",
       "scope": "patient"
     },
     {
       "id": "p3",
-      "name": "Rohan Verma",
+      "name": "Akanksha",
       "email": "patient3@demo.com",
       "password": "patient123",
       "scope": "patient"
