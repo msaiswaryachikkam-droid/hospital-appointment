@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CareLink | Smart Appointments</title><link rel="stylesheet" href="styles.css">
+  <title>Smart Hospital Appointment | Smart Appointments</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="shell">
     <section id="login-view" class="login-card">
-      <div class="brand"><span>✚</span><div><h1>CareLink</h1><p>Smart hospital appointments</p></div></div>
+      <div class="brand"><span>✚</span><div><h1>Smart Hospital Appointment</h1><p>Smart hospital appointments</p></div></div>
       <h2>Welcome back</h2><p class="muted">Choose your account type and sign in.</p>
       <form id="login-form"><label>I am logging in as</label><div class="scope"><label><input type="radio" name="scope" value="patient" checked> Patient</label><label><input type="radio" name="scope" value="doctor"> Doctor</label></div><label>Email<input id="email" type="email" required placeholder="patient1@demo.com"></label><label>Password<input id="password" type="password" required placeholder="patient123"></label><button>Log in</button></form>
       <p class="demo">Patient: <b>patient1@demo.com / patient123</b><br>Doctor: <b>doctor1@demo.com / doctor123</b></p><p id="login-error" class="error"></p>
     </section>
     <section id="app-view" hidden>
-      <header><div class="brand"><span>✚</span><div><h1>CareLink</h1><p>Smart hospital appointments</p></div></div><div><span id="welcome"></span><button id="logout" class="secondary">Log out</button></div></header>
+      <header><div class="brand"><span>✚</span><div><h1>Smart Hospital Appointment</h1><p>Smart hospital appointments</p></div></div><div><span id="welcome"></span><button id="logout" class="secondary">Log out</button></div></header>
       <nav id="patient-nav" hidden><button data-tab="home" class="active">Home</button><button data-tab="my-appointments">My appointments</button></nav>
       <section id="patient-home" class="panel" hidden><h2>Find the right specialist</h2><p class="muted">Describe your symptoms. We match you with registered specialists and rank them by rating.</p><form id="search-form" class="search"><input id="symptom" required placeholder="Example: My bone has fractured"><button>Find doctors</button></form><p id="suggestion" class="suggestion"></p><div id="doctor-list" class="doctor-grid"></div></section>
       <section id="patient-appointments" class="panel" hidden><h2>My appointments</h2><div id="patient-appointment-list"></div></section>
