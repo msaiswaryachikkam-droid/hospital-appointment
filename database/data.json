@@ -1,0 +1,205 @@
+{
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Aarav Sharma",
+      "email": "patient1@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p2",
+      "name": "Diya Patel",
+      "email": "patient2@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p3",
+      "name": "Rohan Verma",
+      "email": "patient3@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p4",
+      "name": "Ananya Iyer",
+      "email": "patient4@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p5",
+      "name": "Kabir Singh",
+      "email": "patient5@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p6",
+      "name": "Meera Nair",
+      "email": "patient6@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p7",
+      "name": "Arjun Rao",
+      "email": "patient7@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p8",
+      "name": "Ishita Das",
+      "email": "patient8@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p9",
+      "name": "Vivaan Gupta",
+      "email": "patient9@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    },
+    {
+      "id": "p10",
+      "name": "Sara Khan",
+      "email": "patient10@demo.com",
+      "password": "patient123",
+      "scope": "patient"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Maya Kapoor",
+      "email": "doctor1@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 5,
+      "city": "Delhi",
+      "specialization": "Orthopedic",
+      "hospital": "Metro Care Hospital"
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Arjun Mehta",
+      "email": "doctor2@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 4,
+      "city": "Mumbai",
+      "specialization": "Orthopedic",
+      "hospital": "City Bone & Joint"
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Neha Joshi",
+      "email": "doctor3@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 5,
+      "city": "Bengaluru",
+      "specialization": "Cardiology",
+      "hospital": "Heartline Medical Centre"
+    },
+    {
+      "id": "d4",
+      "name": "Dr. Rishi Malhotra",
+      "email": "doctor4@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 3,
+      "city": "Delhi",
+      "specialization": "Cardiology",
+      "hospital": "Metro Care Hospital"
+    },
+    {
+      "id": "d5",
+      "name": "Dr. Priya Menon",
+      "email": "doctor5@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 4,
+      "city": "Chennai",
+      "specialization": "Dermatology",
+      "hospital": "Coastal Health Clinic"
+    },
+    {
+      "id": "d6",
+      "name": "Dr. Karan Shah",
+      "email": "doctor6@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 2,
+      "city": "Pune",
+      "specialization": "Dermatology",
+      "hospital": "Wellness Hospital"
+    },
+    {
+      "id": "d7",
+      "name": "Dr. Sneha Roy",
+      "email": "doctor7@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 5,
+      "city": "Kolkata",
+      "specialization": "Neurology",
+      "hospital": "NeuroLife Hospital"
+    },
+    {
+      "id": "d8",
+      "name": "Dr. Aditya Bose",
+      "email": "doctor8@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 4,
+      "city": "Hyderabad",
+      "specialization": "Neurology",
+      "hospital": "CareFirst Hospital"
+    },
+    {
+      "id": "d9",
+      "name": "Dr. Kavya Reddy",
+      "email": "doctor9@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 3,
+      "city": "Hyderabad",
+      "specialization": "Pediatrics",
+      "hospital": "CareFirst Hospital"
+    },
+    {
+      "id": "d10",
+      "name": "Dr. Vikram Sinha",
+      "email": "doctor10@demo.com",
+      "password": "doctor123",
+      "scope": "doctor",
+      "rating": 4,
+      "city": "Jaipur",
+      "specialization": "Pediatrics",
+      "hospital": "Little Stars Hospital"
+    }
+  ],
+  "symptom_department_map": {
+    "bone": "Orthopedic",
+    "fracture": "Orthopedic",
+    "joint": "Orthopedic",
+    "back pain": "Orthopedic",
+    "chest": "Cardiology",
+    "heart": "Cardiology",
+    "palpitation": "Cardiology",
+    "skin": "Dermatology",
+    "rash": "Dermatology",
+    "acne": "Dermatology",
+    "headache": "Neurology",
+    "migraine": "Neurology",
+    "seizure": "Neurology",
+    "child": "Pediatrics",
+    "fever": "Pediatrics",
+    "baby": "Pediatrics"
+  },
+  "appointments": []
+}
